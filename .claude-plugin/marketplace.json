@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "react-expert",
+  "description": "React implementation plugin for AI coding agents.",
+  "owner": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-react-expert"
+  },
+  "plugins": [
+    {
+      "name": "react-expert",
+      "description": "Generates, refactors and reviews version-aware React code following react.dev guidance, existing codebase conventions, accessible UI patterns and unit tests with an 80% coverage gate.",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}
