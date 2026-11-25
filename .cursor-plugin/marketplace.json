@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cursor.com/schemas/marketplace.json",
+  "name": "react-expert",
+  "owner": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-react-expert"
+  },
+  "plugins": [
+    {
+      "name": "react-expert",
+      "description": "Generates, refactors and reviews version-aware React code following react.dev guidance, existing codebase conventions, accessible UI patterns and unit tests with an 80% coverage gate.",
+      "version": "0.1.0",
+      "source": "."
+    }
+  ]
+}
