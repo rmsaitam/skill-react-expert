@@ -1,0 +1,21 @@
+{
+  "name": "react-expert",
+  "interface": {
+    "displayName": "React Expert"
+  },
+  "plugins": [
+    {
+      "name": "react-expert",
+      "description": "Generates, refactors and reviews version-aware React code following react.dev guidance, existing codebase conventions, accessible UI patterns and unit tests with an 80% coverage gate.",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
