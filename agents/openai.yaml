@@ -1,0 +1,4 @@
+interface:
+  display_name: "React Expert"
+  short_description: "Implement version-aware React code with tests and an 80% coverage gate"
+  default_prompt: "Use $react-expert to detect the React version and framework first, follow react.dev and the codebase conventions, and write unit tests with at least 80% coverage."
