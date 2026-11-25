@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "react-expert",
+  "description": "Generates, refactors and reviews version-aware React code following react.dev guidance, existing codebase conventions, accessible UI patterns and unit tests with an 80% coverage gate."
+}
