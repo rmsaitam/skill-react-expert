@@ -1,0 +1,12 @@
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+node_modules/
+stack.json
+REACT-EXPERT-IMPL.md
