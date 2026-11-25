@@ -238,6 +238,16 @@ def test_skill_requires_domain_content(plugin_root):
     assert "missing-skill-content" in codes(report)
 
 
+def test_skill_requires_untrusted_input_guardrail(plugin_root):
+    text_path = plugin_root / "skills" / "react-expert" / "SKILL.md"
+    text = text_path.read_text(encoding="utf-8").replace("untrusted data", "project data")
+    text_path.write_text(text, encoding="utf-8")
+
+    report = vp.validate_plugin(plugin_root)
+
+    assert "missing-skill-content" in codes(report)
+
+
 def test_markdown_link_cannot_escape_root(plugin_root):
     replace_in(
         plugin_root / "skills" / "react-expert" / "SKILL.md",

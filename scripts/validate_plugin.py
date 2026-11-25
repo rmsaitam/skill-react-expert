@@ -66,6 +66,7 @@ REQUIRED_SKILL_TOKENS = (
     "package.json",
     "tsconfig.json",
     "react.dev",
+    "untrusted data",
     "React 18",
     "React 19",
     "useActionState",
