@@ -1,0 +1,43 @@
+{
+  "name": "react-expert",
+  "version": "0.1.0",
+  "description": "Generates, refactors and reviews version-aware React code following react.dev guidance, existing codebase conventions, accessible UI patterns and unit tests with an 80% coverage gate.",
+  "author": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-react-expert"
+  },
+  "homepage": "https://github.com/rmsaitam/skill-react-expert",
+  "repository": "https://github.com/rmsaitam/skill-react-expert",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "typescript",
+    "nextjs",
+    "vite",
+    "hooks",
+    "react-compiler",
+    "jest",
+    "vitest",
+    "accessibility",
+    "coverage"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "React Expert",
+    "shortDescription": "Implement version-aware React code with tests and an 80% coverage gate",
+    "longDescription": "Detects the React, TypeScript, Node and framework versions from package.json and tsconfig.json before suggesting any dependency or code, follows the codebase architecture and official react.dev guides, gates React 19 APIs, preserves the existing styling and state conventions, writes accessible components and adds unit tests under an 80% coverage gate.",
+    "developerName": "Reginaldo (rmsaitam)",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/rmsaitam/skill-react-expert",
+    "defaultPrompt": [
+      "Implement this feature using the React and framework versions detected in the project",
+      "Review my React code against react.dev and the existing codebase conventions",
+      "Write unit tests with at least 80% coverage for the changed React behavior"
+    ],
+    "brandColor": "#61DAFB",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
+  }
+}
